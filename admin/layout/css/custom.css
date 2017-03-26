@@ -1,0 +1,157 @@
+/* Start main rules */
+body {
+  background-color: #F4F4F4;
+}
+h3{border-bottom: 1px solid #ccc; padding-bottom: 5px;}
+/* End main rules */
+
+/* Start login form */
+.login {
+  max-width: 340px;
+  height: 300px;
+  margin: 100px auto;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+/* End login form */
+
+/* Start Navbar */
+nav{
+  border-radius: 0px !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover{
+  background-color: #3498db;
+}
+
+.navbar-brand{font-size: 26px !important;}
+/* End Navbar */
+
+/* Start Edit Form */
+form.edit {
+  padding: 20px 20px;
+  max-width: 500px !important;
+  margin: 0 auto !important;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+/* End Edit Form */
+
+/* Start showUser */
+table.showUsers{
+  border: 1px solid #ccc !important;
+}
+/*table.showUsers td{
+  background-color: #fff;
+}*/
+table.showUsers thead td{
+  background-color: #222;
+  color: #fff;
+}
+table.showUsers .btn{
+  font-size: 10px;
+}
+/* End showUser */
+
+/* Start Dashboard */
+div.status{
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+span.spn{
+  font-size: 50px;
+}
+.panel{
+  margin-top: 20px !important;
+}
+.dshb{
+  font-size: 50px;
+  font-weight: bold;
+}
+.t-members{
+  background-color: #3498db;
+  color: #fff;
+}
+.p-members{
+  background-color: #e74c3c;
+  color: #fff;
+}
+.t-items{
+  background-color: #e67e22;
+  color: #fff;
+}
+.t-comments{
+  background-color: #1abc9c;
+  color: #fff;
+}
+.boxes{
+  color: #fff;
+  text-decoration: none;
+}
+.boxes:hover{
+  color: #fff;
+  text-decoration: none;
+}
+table.l-users thead td{
+  background-color: #3498db !important;
+  color: #fff !important;
+  /*border-right: 1px solid #fff;*/
+}
+table.l-items thead td{
+  background-color: #e67e22 !important;
+  color: #fff !important;
+  /*border-right: 1px solid #fff;*/
+}
+
+#userArrow, #catArrow{
+  cursor: pointer;
+}
+
+/* End Dashboard */
+
+/* Start ManageItems */
+
+.Yes{
+  padding: 5px;
+  border: 2px solid #202020;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.No{
+  padding: 5px;
+  border: 2px solid #ccc;
+  background-color: #202020;
+  color: #fff;
+  border-radius: 5px;
+}
+.mngItem .yn {
+  margin-right: 50px;
+}
+.description{
+  margin: 10px 20px;
+}
+.mngItem .btn1, .btn2{
+  font-size: 20px !important;
+  margin: 10px;
+  float: right;
+  width: 150px;
+}
+
+.showItems{
+  max-width: 1000px;
+}
+/* End MangeItems*/
+
+/* Start add-item form */
+.add-item{
+  max-width: 500px;
+}
+/* End add-item form */
+
